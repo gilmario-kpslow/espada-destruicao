@@ -29,12 +29,12 @@ const game = new Phaser.Game(config);
 // let gameOver;
 
 function preload() {
-    this.load.image('sky', 'http://localhost/exemplo02/img/fundo02.svg');
-    this.load.image('arvore', 'http://localhost/exemplo02/img/arvore.png');
-    this.load.image('personagem', 'http://localhost/exemplo02/img/personagem.svg');
-    this.load.image('fundo', 'http://localhost/exemplo02/img/fundoprincipal.svg');
-    this.load.image('espada', 'http://localhost/exemplo02/img/espada.png');
-    this.load.image('logo', 'http://localhost/exemplo02/img/logo.svg');
+    this.load.image('sky', '../exemplo02/img/fundo02.svg');
+    this.load.image('arvore', '../exemplo02/img/arvore.png');
+    this.load.image('personagem', '../exemplo02/img/personagem.svg');
+    this.load.image('fundo', '../exemplo02/img/fundoprincipal.svg');
+    this.load.image('espada', '../exemplo02/img/espada.png');
+    this.load.image('logo', '../exemplo02/img/logo.svg');
 
     
     
